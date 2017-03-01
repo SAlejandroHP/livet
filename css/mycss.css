@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600');
+html
+{
+  font-family: 'Raleway', sans-serif !important;
+}
+.logo{
+  margin-bottom: 150px;
+  padding: 20px;
+}
+.navbar-nat li a:hover{
+  color: #00bfa5;
+  background-color: transparent !important;
+  transition: color .5s;
+}
+.page-title{
+  text-align: center !important;
+  font-size: 30px;
+}
+.justify{
+  text-align: justify;
+}
+.litgh-200{
+  font-weight: 200 !important;
+}
+.medium-300{
+  font-weight: 300 !important;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #00bfa5;
+  -webkit-transition: color .5s ease;
+}
+.tabs .tab a{
+  color: #1de9b6;
+}
+.tabs .indicator {
+  background-color: #1de9b6;
+}
+.card-image img {
+  -webkit-transition:all .9s ease; /* Safari y Chrome */
+  -moz-transition:all .9s ease; /* Firefox */
+  -o-transition:all .9s ease; /* IE 9 */
+  -ms-transition:all .9s ease; /* Opera */
+  width:100%;
+}
+.card-image:hover img {
+  -webkit-transform:scale(1.02);
+  -moz-transform:scale(1.02);
+  -ms-transform:scale(1.02);
+  -o-transform:scale(1.02);
+  transform:scale(1.02);
+}
+.card-image {
+  overflow:hidden;
+}
+.border-rigth{
+  border-right: 1px solid #e0e0e0;
+}
+header, main, footer {
+  padding-left: 300px;
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
