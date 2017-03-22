@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/mycss.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Autor" content="Pagina creada para fines a los que corresponda de la empresa Naturling Livet">
+    <link rel="shortcut icon" href="images/favicon.ico">
   </head>
   <body>
     <header>
-      <!-- <div class="navbar-fixed"> -->
+      <!-- <div class="navbar-fixed">
         <nav class="top-nav z-depth-0 white">
           <div class="container">
             <div class=" nav-wrapper">
@@ -40,8 +41,8 @@
             </div>
           </div>
         </nav>
-      </div>
-      <ul id="slide-out" class="side-nav fixed navbar-nat z-depth-0 white">
+      </div> -->
+      <ul id="slide-out final" class="side-nav fixed navbar-nat z-depth-0 white navbar-bottom">
         <li>
           <div class="logo center">
             <a href="#"><img src="images/logo.png" alt="Logo"></a>
@@ -50,34 +51,35 @@
         <li><a href="#inicio"    class="center litgh-300">INICIO</a></li>
         <li><a href="#productos" class="center litgh-300">PRODUCTOS</a></li>
         <li><a href="#contacto"  class="center litgh-300">CONTACTO</a></li>
-        <li id="final">
+        <!-- <li id="nav-var-bottom">
           <div class="row">
             <div class="divider"></div>
             <div class="col s12 m6 center border-rigth">
               <a href="#">Compartir</a>
             </div>
             <div class="col s12 m6 center">
-              <a href="#">Contacto</a>
+              <a href="#">INCIO</a>
             </div>
           </div>
-        </li>
+        </li> -->
       </ul>
     </header>
     <main>
-      <!-- <div class="container"> -->
-        <div class="row">
-          <div class="col s12">
-            <div class="section scrollspy" id="inicio">
-              <h3 class="center litgh-200">¡Preocupados por la Salud!</h3>
+      <div class="section scrollspy" id="inicio">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h3 class="page-title litgh-200">Preocupados por la Salud!</h3>
               <p class="justify">Somos una empresa 100% Méxicana, fue creada para proveer productos naturistas, los cuales sirven de manera cotidiana para mejorar la calidad de vida que llevamos día a día, nos respaldan 5 años de experiencia brindamos la mejor calidad en nuestros productos dentro del mercado de la salud.</p>
             </div>
           </div>
         </div>
-      <!-- </div> -->
+      </div>
+      <!-- Slider -->
       <div class="slider">
         <ul class="slides">
           <li>
-            <img src="images/banner-herbs.jpg"> <!-- random image -->
+            <img src="images/banner-herbs-e.jpg"> <!-- random image -->
             <div class="caption center-align">
               <h3>Naturales!</h3>
               <h5 class="light grey-text text-lighten-3">Tomando la mejor calidad.</h5>
@@ -92,477 +94,84 @@
           </li>
         </ul>
       </div>
+      <!-- /Slider -->
       <!-- Productos -->
-      <div class="row">
+      <div class="section scrollspy" id="productos">
         <div class="col s12">
-          <div class="section scrollspy" id="productos">
-            <h3 class="center litgh-200">Productos</h3>
-            <p>Contamos con una varidad compleja de productos en distintas presentaciones, puedes eleguir dependiendo el tipo del veneficio que quiras para tu cuerpo.</p>
-            <!-- productos -->
-            <div class="row">
-              <div class="col s12">
-                <ul class="tabs">
-                  <li class="tab col s4 teal-text text-accent-4"><a href="#gel">Gel</a></li>
-                  <li class="tab col s4 teal-text text-accent-4"><a href="#polvo">Polvo</a></li>
-                  <li class="tab col s4 teal-text text-accent-4"><a href="#todos" class="active">Todos</a></li>
-                </ul>
-              </div>
-              <div id="gel" class="col s12">
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto1.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#tcil" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
+          <h3 class="center page-title">Productos</h3>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <p>Contamos con una varidad compleja de productos en distintas presentaciones, puedes eleguir dependiendo el tipo del veneficio que quiras para tu cuerpo.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s4 teal-text text-accent-4"><a href="#gel">Gel</a></li>
+                <li class="tab col s4 teal-text text-accent-4"><a href="#polvo">Polvo</a></li>
+                <li class="tab col s4 teal-text text-accent-4"><a href="#todos" class="">Todos</a></li>
+              </ul>
+            </div>
+            <!-- Gel -->
+            <div id="gel" class="col s12">
+              <div class="col s6 m4 l4">
+                <div class="card z-depth-0">
+                  <div class="card-image">
+                    <img class="activator" src="images/productos/producto1.png">
+                  </div>
+                  <div class="card-content">
+                    <p class="center"><a href="#tcil" class="waves-effect waves-light">Beneficios</a></p>
                   </div>
                 </div>
-              </div>
-              <!-- Polvos -->
-              <div id="polvo" class="col s12">
-                <div class="col s6 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto2.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#alpiste" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Jugo verde -->
-                <div class="col s6 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto3.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#jugov" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- colageno -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto4.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#colag" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- arti-vit -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto5.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#arti" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- vita-nox -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto6.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#vitanox" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- vital kids -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto7.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#vitalkids" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- fiber -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto8.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#fiber" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- mangostan -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto9.jpg">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#mango" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- wereke -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto10.jpg">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#wereke" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-
-              <!-- Todos -->
-              <div id="todos" class="col s12">
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto1.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#tcil" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Alpiste -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto2.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#alpiste" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Jugo verde -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto3.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#jugov" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- colageno -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto4.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#colag" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- arti vit -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto5.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#arti" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- vita-nox -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto6.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#vitanox" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- vital kids -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto7.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#vitalkids" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- fiber -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto8.png">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#fiber" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- mangostan -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto9.jpg">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#mango" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- wereke -->
-                <div class="col s12 m3 l3">
-                  <div class="card z-depth-1">
-                    <div class="card-image">
-                      <img class="activator materialboxed" src="images/productos/producto10.jpg">
-                    </div>
-                    <div class="card-content">
-                      <p><a href="#wereke" class="waves-effect waves-light">Veneficios</a></p>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-            <!-- modal windows -->
-            <!-- Modal del gel -->
-            <div id="tcil" class="modal">
-              <div class="modal-content">
-                <h4>T-Cil Gel corporal</h4>
-                <p class="justify">Previene y mejora la aparicion de celulitis, genera micro circulacion sanguinea. Se usa para suavizar todo tipo de piel incluyendo pieles secas y escamosas e hidratando y desinflamando. Debido a sus composicion es muy usado en la industria cosmetica.</p>
-                <p class="justify">Estimula y mejora la circulación de la sangre y la linfa, revitaliza y reafirma la piel, al mismo tiempo reestablece los niveles naturales de humedad.
-                Añade textura y brillo al cabello y mejora la textura d la piel y el tono. </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
               </div>
             </div>
-            <!-- Leche de alpiste -->
-            <div id="alpiste" class="modal">
-              <div class="modal-content">
-                <h4>Leche de Alpiste con Almendras</h4>
-                <p class="justify">
-                  Tiene propiedades importantes para la salud humana pues actua como probioticos mejorando el sistema inmunologico impulsando al cerebro a tener una mayor actividad lo cual permite que se reduzca el riesgo de padecer enfermedades tan complicadas y degenerativas como el alzheimer. Posee potente capacidad de recarga enzimatica es excelente fuente de antioxidante los cuales previene el envejecimiento y desgaste prematuro en la piel.
-                </p>
-                <p class="justify">
-                  Ayuda en casos de gota, edemas, gastritis y úlceras de estómago. Ideal para combatir la hipertensión. Aporta tono muscular.
-                </p>
+            <!-- Polvos -->
+            <div id="polvo" class="col s12">
+              <div class="col s6 m4 l4">
+                <div class="card z-depth-0">
+                  <div class="card-image">
+                    <img class="activator materialboxed" src="images/productos/producto2.png">
+                  </div>
+                  <div class="card-content">
+                    <p class="center"><a href="#alpiste" class="waves-effect waves-light">Beneficios</a></p>
+                  </div>
+                </div>
               </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
-            <!-- Jugo verde -->
-            <div id="jugov" class="modal">
-              <div class="modal-content">
-                <h4>Zona Cero - Jugo Verde</h4>
-                <p class="justify">
-                  Zona Cero es una conbinacion de vitaminas, minerales, proteinas, carboidratos y grasas equilibradas, las cuales son la mejor base para sentir un bienestar mejorado, tambien nos ayuda para tener perdida de peso y el cual usted tendra una mayor vitalidad, salud y energia.
-                </p>
-                <p class="justify">
-                  Moviliza la grasa de nuestro cuerpo y la convierte en energía, la cual se va liberando paulatinamente con las actividades diarias o con el ejercicio para un mejor aprovechamiento.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
-            <!-- colageno -->
-            <div id="colag" class="modal">
-              <div class="modal-content">
-                <h4>Colageno - Colagenix</h4>
-                <p class="justify">
-                  El colegeno hidrolizado es la proteina mas abundante de nuestro cuerpo un conponenete esencial de los huesos, ligamentos, tendones cartilagos y piel. Consumir diariamente colageno hidrolizado ayuda a nutrir y regenerar los tejidos de nuestras articuleciones tambien refuerza uñas, dientes y pelo reduciendo y retrasando la aparicion del dolor articular.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
-            <!-- arti -->
-            <div id="arti" class="modal">
-              <div class="modal-content">
-                <h4>Calcio - Arti-Vit</h4>
-                <p class="justify">
-                  Calcio de Coral. El calcio es un mineral que nuestro organismo necesita para su correcto funcionamiento es conocido por cumplir un papel clave para la salud de los huesos es esencial para la fortaleza el crecimiento y la formacion de hueso nuevo, ayuda en el tratamiento y prevencion de osteopenia, osteoporosis (huesos fragiles que se rompen facilmente) Es utilizado como uno de los ingredientes de muchos antiacidos hay buena evidencia de que el calcio puede ayudar a controlar la presion arterial alta , ayuda a mejorar los sintomas del sindrome premestrual.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
-            <!-- vitanox -->
-            <div id="vitanox" class="modal">
-              <div class="modal-content">
-                <h4>Vita-Nox</h4>
-                <p class="justify">
-                  Es un jugo con alto contenido de antioxidantes que ayudan a revertir el envejecimientbo neuronal reduciendo la producción del llamado colesterol malo que provoca enfermedades cardiovasculares, previniendo infecciones en la vejiga. Debido a su particular composición estas frutas poseen un efecto diurético, favorece la eliminacion de acido úrico y sus sales, hipertension arterial u otras enfermedades asociadas a retención de líquidos.
-                </p>
-                <p class="justify">
-                  Revierte la pérdida de equilibrio y coordinación además de mejorar la memoria a corto plazo. Ayuda a mejorar la vista.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
-            <!-- vital kids -->
-            <div id="vitalkids" class="modal">
-              <div class="modal-content">
-                <h4>Vital-Kids</h4>
-                <p class="justify">
-                  Malteada vitamínica esencial para niños y adolecentes en la etapa de crecimiento ya que cuenta con propiedades multiples energizantes, problemas respiratorios, dolor de garganta infecciones digestivas, cistitis, dolores estomacales e intestinales aportando buena porción de fibra soluble. La fórmula completa de algarroba posee una fuente vitamínica pertenecientes al grupo B tales como B1 o tiamina, B2 o riboflavina, B3 o niacina y vitamina A o beta-caroteno entre sus principales minerales se encuentra el potasio el fósforo, el magnesio, el calcio, el silicio y el hierro.
-                </p>
-                <p class="justify">
-                  Se recomienda para los tratamientos de asma, los tratamientos de la blenorragia, tratamientos de la cistitis, laringitis y la indigestión.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
-            <!-- Fiber apple -->
-            <div id="fiber" class="modal">
-              <div class="modal-content">
-                <h4>Fiber Apple</h4>
-                <p class="justify">
-                  Hace más lenta la absorción de grasa por lo que es fundamental incluirla en la dieta si busca perder peso. Este efecto ayuda también a que los niveles de colesterol se regulen siendo muy recomendada para personas que sufren colesterol alto y ayuda a regular el nivel de glucosa en la sangre así mismo los alimentos ricos en fibra soluble son recomendados en caso de diabetes. Previene diversas enfermedades intestinales posee propiedades depurativas que te haran desintoxicar tu organismo en forma natural.
-                </p>
-                <p class="justify">
-                  Hace más lenta la absorción de grasas, por lo que es fundamental incluirla en la dieta si se busca perder algo de peso.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
-            <!-- Mangostan -->
-            <div id="mango" class="modal">
-              <div class="modal-content">
-                <h4>Mangostan</h4>
-                <p class="justify">
-                  Es eficaz contra 7 clases de diferentes bacterias perjudiciales y es eficaz contra los hongos y los parásitos.
-                </p>
-                <p class="justify">
-                  Ayuda en la prevención de enfermedades y en mejorar la salud.
-                </p>
-                <p class="justify">
-                  Ayuda al hígado a limpiar y desintoxicar para que pueda segregar insulina y controlar la diabetes. Además, ayuda a combatir el cancer de pulmón, senos, hígado, páncreas y fortalece el sistema inmunológico para poder combatir las emfermedades e infecciones que pueden ingresar al organismo.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
-            <!-- Wereke -->
-            <div id="wereke" class="modal">
-              <div class="modal-content">
-                <h4>Wereke</h4>
-                <p class="justify">
-                  Tratamiento efectivo para la diabetes Melitus tipo 1 y 2 e insípida. Regula rápidamente los niveles de azúcar en la sangre, baja los niveles de colesterol. Gracias a su acción Hipoglucemiante desintoxica el organismo y purifica la sangre.
-                </p>
-                <p class="justify">
-                  Desinflama las articulaciones en caso de artritis y reumatismo. Reduce la fatiga y el apetito excesivo.
-                </p>
-                <p class="justify">
-                  Ayuda a incrementar la secreción de ácidos biliares, lo cual ayuda a remover el colesterol del cuerpo.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-      <!-- /productos -->
-      <!-- contacto -->
-      <div class="row">
-        <div class="col s12">
-          <div class="section scrollspy" id="contacto">
-            <div class="row">
-              <div class="col s12 m6">
-                <p>
-                  <iframe src="https://developers.google.com/maps/documentation/javascript/examples/full/styledmaptype?hl=es-419" width="100%" height="400px" frameborder="0"></iframe>
-                </p>
-              </div>
-              <div class="col s12 m6">
-                <p class="justify">Nos comunicaremos de inmediato para resolver cualquier duda o aclaracion que tengas, solo deja tus datos para contactarte.</p>
-                <div class="row">
-                  <form class="col s12" method="post">
-                    <div class="input-field col s6">
-                      <input id="nombre" type="text" class="validate">
-                      <label for="nombre">Nombre</label>
-                    </div>
-                    <div class="input-field col s6">
-                      <input id="apellido" type="text" class="validate">
-                      <label for="apellido">Apellido</label>
-                    </div>
-                    <div class="input-field col s6">
-                      <input id="email" type="email" class="validate">
-                      <label for="email" data-error="Error - Validar Email" data-success="Email correcto">Email</label>
-                    </div>
-                    <div class="input-field col s6">
-                      <input id="telefono" type="tel" class="validate">
-                      <label for="telefono">Telefono</label>
-                    </div>
-                    <div class="input-field col s12">
-                      <textarea id="mensaje" class="materialize-textarea" data-length="120"></textarea>
-                      <label for="mensaje">Mensaje</label>
-                    </div>
-                    <div class="col s12">
-                      <button type="submit" name="button" class="btn col s12">Envíar</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+      <!-- Modal del gel -->
+      <div id="tcil" class="modal">
+        <div class="modal-content">
+          <h4>T-Cil Gel corporal</h4>
+          <p class="justify">Previene y mejora la aparicion de celulitis, genera micro circulacion sanguinea. Se usa para suavizar todo tipo de piel incluyendo pieles secas y escamosas e hidratando y desinflamando. Debido a sus composicion es muy usado en la industria cosmetica.</p>
+          <p class="justify">Estimula y mejora la circulación de la sangre y la linfa, revitaliza y reafirma la piel, al mismo tiempo reestablece los niveles naturales de humedad.
+          Añade textura y brillo al cabello y mejora la textura d la piel y el tono. </p>
+        </div>
+        <div class="modal-footer">
+          <p>Precio <span class="right-align">$900.00</span></p>
         </div>
       </div>
-      <!-- /contacto -->
+      <!-- Leche de alpiste -->
+      <div id="alpiste" class="modal">
+        <div class="modal-content">
+          <h4>Leche de Alpiste con Almendras</h4>
+          <p class="justify">
+            Tiene propiedades importantes para la salud humana pues actua como probioticos mejorando el sistema inmunologico impulsando al cerebro a tener una mayor actividad lo cual permite que se reduzca el riesgo de padecer enfermedades tan complicadas y degenerativas como el alzheimer. Posee potente capacidad de recarga enzimatica es excelente fuente de antioxidante los cuales previene el envejecimiento y desgaste prematuro en la piel.
+          </p>
+          <p class="justify">
+            Ayuda en casos de gota, edemas, gastritis y úlceras de estómago. Ideal para combatir la hipertensión. Aporta tono muscular.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <p>Precio <span class="right-align">$900.00</span></p>
+        </div>
+      </div>
+      <!-- /Productos -->
     </main>
   </body>
-  <!-- footer -->
-  <footer class="page-footer teal darken-4">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Naturling Livet</h5>
-          <!-- <p class="grey-text text-lighten-4">Todos los productos se encuentran </p> -->
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <!-- <h5 class="white-text">Links</h5> -->
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2017 Copyright
-      <a class="grey-text text-lighten-4 right" href="#!">Sitio diseñado por SaaK Contact</a>
-      </div>
-    </div>
-  </footer>
-  <!-- /footer -->
 </html>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" charset="utf-8"></script>
 <script src="js/materialize.min.js"></script>
